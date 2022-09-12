@@ -1,0 +1,222 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+
+}
+body{
+	font-family: sans-serif;
+	bottom:px;
+}
+.navigation{
+	background-color: blueviolet;
+	height: 40px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	padding: 0 5px;
+
+}
+.logo{
+	color: black;
+	margin-left: 10px;
+
+}
+.logo span{
+	color: red;
+}
+.navigation ul{
+	list-style: none;
+	display: flex;
+}
+.navigation ul li{
+	padding: 10px 20px;
+}
+.navigation ul li a{
+	color: white;
+    text-decoration: none;
+	font-size:15px;
+}
+.navigation ul li a:hover{
+	color: black;
+
+}
+.container{
+	background-color: blueviolet;
+	width: 20%;
+	height:20vh;
+	margin: 15px;
+	left: 30px;
+	color: white;
+	border-top-left-radius:25px;
+	border-bottom-right-radius:25px;
+}
+.head{
+	text-align: center;
+	background-color: black;
+	height:40px;
+	padding:10px 0px;
+	border-top-left-radius:25px;
+}
+.main{
+	display: flex;
+	justify-content: center;
+}
+.section{
+	width:96%;
+	height:85vh;
+	margin:15px 30px;
+	justify-content: center;
+	border-radius: 15px;
+	border:2px dashed blueviolet;
+
+}
+.songItemContainer{
+    margin-top: 24px;
+    float: left;
+}
+
+.songItem{
+    height:35px;
+    display: flex;
+    background-color: blueviolet;
+    
+    color: white;
+    margin: 13px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.songItem img{
+    width: 35px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}.m_box2{
+	width:50%;
+	height: 80vh;
+	float: right;
+}
+.m_box2_container{
+	height:70%;
+	width: 50%;
+	margin:80px 150px;
+	color: white;
+	box-shadow:2px 2px 2px 2px;
+	border-radius: 20px;
+	background-color: blueviolet;
+}
+.m_box2_container img{
+	width: 10vw;
+	height: 20vh;
+    margin: 30px 93px;
+}
+#gif{
+	opacity:0;
+    transition:opacity 0.10s ease-in;
+
+}
+.m_box2_container input{
+	margin: 10px 60px;
+	width: 60%;
+}
+.m_box2_container p{
+	text-align:center;
+	color: white;
+	margin: 10px 0px;
+
+}
+.icons{
+	text-align: center;
+	font-size: 30px;
+	margin: 10px 0px;
+}
+#myProgressBar{
+	cursor: pointer;
+}
+.footer{
+	height:23vh;
+	bottom: 0px;
+	display: flex;
+	width: 100vw;
+	margin-bottom: 20px;
+
+}
+.f_box1{
+	width:50%;
+	height:23vh;
+	border: 0;
+	outline: 0;
+	float: left;
+    padding: 20px 50px;
+}
+.f_box1 p{
+	padding:10px;
+	color: white;
+}
+.f_box2{
+	width:50%;
+	height:23vh;
+	border: 0;
+	outline:0;
+	float: right;
+}
+.f_box2 h2{
+	text-align: center;
+	margin:10px 0px;
+
+}
+.f_box2 input{
+	padding: 10px 40px;
+	margin: 5px 30px;
+
+}
+.f_box2 button{
+   padding: 10px 105px;
+   margin:0px 30px;
+   background-color: blueviolet;
+   color: white;
+   border: 0px;
+   outline: 0px;
+
+}
+.copyrights{
+	text-align: center;
+	margin: 10px 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

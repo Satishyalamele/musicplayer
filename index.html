@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Music Player</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div class="navigation">
+		<h2 class="logo">Music<span>Player</span></h2>
+		<nav>
+            <ul>
+            	<li><a href="../index.html">Home</a></li>
+            	<li><a href="#about">About</a></li>
+            	<li><a href="#contact">Contact</a></li> 
+            </ul>
+		</nav>
+	</div>
+    <section class="section">
+    	    <div class="songList">
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Hunter 303</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Mr. X</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="1" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Get on The Dance Floor </span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="2" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Abhi Toh Party</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="3" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Alcoholic </span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="4" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Inida Walle</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="5" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">BAdtameez Dil</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="6" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Besharmi Ki Height</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="7" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Daweet-E_Ishq</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="8" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Desi Look</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="9" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+            </div></div>
+        <div class="m_box2">
+    		<div class="m_box2_container">
+    		<span><img src="playing.gif" width="42px" alt="" id="gif"></span>
+    		<p id="masterSongName">Hunter 303</p>
+    		<input type="range" name="range" id="myProgressBar" min="0" max="0" value="0">
+    		<div class="icons">
+            <i class="fas  fa-step-backward" id="previous"></i>
+            <i class="far  fa-play-circle" id="masterPlay"></i>
+            <i class="fas  fa-step-forward" id="next"></i> 
+    		</div>
+    		</div>
+    	</div>
+    </section>
+    <footer class="footer">
+    <div class="f_box1"> 
+		<h2 class="logo"id="about">Music<span>Player</span></h2>
+		<p class="about" style="color:black;">Music Player is a one of the best project for beginners and its advanced version is updated soon</p>
+    </div>
+    <div class="f_box2" id="submit">
+    	<h2 id="contact">Contact Us</h2>
+    	<input type="text" name="" placeholder="Enter Your Name">
+    	<input type="text" name="" placeholder="Enter Your PhoneNumber">
+    	<input type="text"class="input_style" name="" placeholder="Enter Your Message">
+    	<button type="submit" onclick="Message();" id="button">Submit</button>
+    </div>
+    </footer>
+    <hr>
+    <div class="copyrights">&#169 All Rights Reservered 2022</div>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
